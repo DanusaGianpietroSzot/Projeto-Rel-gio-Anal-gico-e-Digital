@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #77B1DF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(7, 2, 73);
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: bolde
+}
+
+.relogio {
+    width: 600px;
+    height: 600px;
+    border: 5px solid #FFF;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.riscos {
+    width: 100%;
+    height: 100%;
+    padding-left: 50%;
+    padding-top: 50%;
+    margin-top: -3px;
+}
+.risco {
+    width: 290px;
+    height: 10px;
+    position: absolute;
+    transform-origin: left;
+    display: flex;
+    justify-content: flex-end;
+}
+.risco .ponto {
+    width: 15px;
+    height: 100%;
+    background-color: rgb(7, 2, 73);
+}
+
+.ponteiros {
+    width: 100%;
+    height: 100%;
+    padding-left: 50%;
+    padding-top: 50%;
+    margin-top: -100%;
+}
+.p {
+    transform-origin: left;
+    transform: rotate(0deg);
+    border-radius: 50%;
+    position: absolute;
+}
+
+.p_s {
+    width: 230px;
+    height: 3px;
+    background-color: #F00;
+}
+.p_m {
+    width: 195px;
+    height: 7px;
+    background-color: #FFF;
+}
+.p_h {
+    width: 110px;
+    height: 10px;
+    background-color: #FFF;
+}
+.encaixe {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(7, 2, 73);
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -5px;
+}
+.digital {
+    color: rgb(7, 2, 73);
+    font-size: 60px;
+    margin-top: 20px;
+    font-weight: bolder;
+
+}
+
+footer {
+    margin-top: 20px;
+    color: rgb(7, 2, 73);
+    font-size: 13px;
+}
